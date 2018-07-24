@@ -1,4 +1,4 @@
-package Observer;
+package Interfaces;
 
 /**
  * Created by Anderson on 07/06/2018.

@@ -1,32 +1,30 @@
 package Communication;
 
 import Model.Query;
-import Observer.ObservableImpl;
+import Implements.ObservableImpl;
 import com.google.gson.Gson;
 import org.eclipse.paho.client.mqttv3.*;
-import org.eclipse.paho.client.mqttv3.persist.MqttDefaultFilePersistence;
 
 
 public class Communication {
     //Mqtt
-    private static String brokerUrl = "tcp://lsdi.ufma.br:1883";
     private MqttClient cliente = null;
     private static String queryTopic = "QueryCSparql";
-    private static String streamTopic = "Stream";
     private String responseTopic = "responseQuery/";
     private MqttMessage message;
 
     //Classe
-    private ObservableImpl observable=null;
-    private Query query=null;
+    private ObservableImpl observable = null;
+    private Query query = null;
 
     //Json
-    private Gson gson =null;
+    private Gson gson = null;
 
     public void query(Query query, ObservableImpl observableImpl) {
         this.observable = observableImpl;
-        this.query = new Query();
+        this.query = new Query.Builder().build();
         this.query = query;
+        System.out.println(""+this.query.getQuery()+" - "+this.query.getPublisherID());
         System.out.println("*-*-*-*-*-*- Communication - recebeu a consulta");
         try{
             publish();

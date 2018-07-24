@@ -8,11 +8,44 @@ import java.util.UUID;
 
 public class Query {
     private String Query;
-    private int QoS;
-    private Boolean Retained;
     private Boolean Continuos;
     String publisherID;
     final String returnCode = UUID.randomUUID().toString();
+
+
+    public Query(String query, Boolean continuos, String publisherID) {
+        Query = query;
+        Continuos = continuos;
+        this.publisherID = publisherID;
+    }
+
+    public static class Builder{
+        private String query;
+        private Boolean continuos;
+        String publisherID;
+        final String returnCode = UUID.randomUUID().toString();
+
+        public Builder(){
+
+        }
+
+        public Builder query(String query){
+            this.query = query;
+            return  this;
+        }
+        public Builder continuos(Boolean continuos){
+            this.continuos = continuos;
+            return  this;
+        }
+        public Builder publisherID(String publisherID){
+            this.publisherID = publisherID;
+            return  this;
+        }
+
+        public Query build(){
+            return  new Query(query,continuos,publisherID);
+        }
+    }
 
     public String getReturnCode() {
         return returnCode;
@@ -22,25 +55,13 @@ public class Query {
         return publisherID;
     }
 
-    public void setPublisherID(String publisherID) {
-        this.publisherID = publisherID;
-    }
-
     public Boolean getContinuos() {
         return Continuos;
-    }
-
-    public void setContinuos(Boolean continuos) {
-        Continuos = continuos;
     }
 
     public String getQuery() {
 
         return Query;
-    }
-
-    public void setQuery(String query) {
-        Query = query;
     }
 
 }

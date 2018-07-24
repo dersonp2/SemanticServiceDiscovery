@@ -1,4 +1,4 @@
-package Observer;
+package Interfaces;
 
 import Model.Query;
 

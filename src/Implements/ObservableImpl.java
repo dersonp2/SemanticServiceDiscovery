@@ -1,6 +1,8 @@
-package Observer;
+package Implements;
 
 import Communication.Communication;
+import Interfaces.Listener;
+import Interfaces.Observable;
 import Model.Query;
 
 /**
@@ -18,7 +20,6 @@ public class ObservableImpl implements Observable {
         communication.query(query, this);
         System.out.println("*-*-*-*-*-*- ObservableImpl - Mandou a consulta para o Communication");
         this.listener = listener;
-
     }
 
     @Override

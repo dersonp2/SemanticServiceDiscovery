@@ -1,6 +1,6 @@
 import Model.Query;
-import Observer.Listener;
-import Observer.ObservableImpl;
+import Interfaces.Listener;
+import Implements.ObservableImpl;
 
 public class Main {
 
@@ -8,12 +8,13 @@ public class Main {
         consulta();
     }
     public static void consulta(){
-        Query query = new Query();
-        query.setPublisherID("Anderson@lsdi.ufma.br");
-        query.setContinuos(true);
-        query.setQuery("Consulta X");
+        Query q = new Query.Builder().query("Select ta")
+                .continuos(true)
+                .publisherID("Anderson tal")
+                .build();
+
         ObservableImpl consulta = new ObservableImpl();
-        consulta.addListener(query, new Listener() {
+        consulta.addListener(q, new Listener() {
             @Override
             public void update(String obj) {
 
