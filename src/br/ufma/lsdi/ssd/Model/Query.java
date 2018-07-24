@@ -1,4 +1,4 @@
-package Model;
+package br.ufma.lsdi.ssd.Model;
 
 import java.util.UUID;
 
@@ -8,14 +8,14 @@ import java.util.UUID;
 
 public class Query {
     private String Query;
-    private Boolean Continuos;
-    String publisherID;
+    private Boolean continuos;
+    private String publisherID;
     final String returnCode = UUID.randomUUID().toString();
 
 
     public Query(String query, Boolean continuos, String publisherID) {
         Query = query;
-        Continuos = continuos;
+        continuos = continuos;
         this.publisherID = publisherID;
     }
 
@@ -56,7 +56,7 @@ public class Query {
     }
 
     public Boolean getContinuos() {
-        return Continuos;
+        return continuos;
     }
 
     public String getQuery() {

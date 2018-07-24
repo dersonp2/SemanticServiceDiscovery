@@ -1,4 +1,4 @@
-package Interfaces;
+package br.ufma.lsdi.ssd.Interfaces;
 
 /**
  * Created by Anderson on 07/06/2018.

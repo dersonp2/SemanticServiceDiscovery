@@ -1,6 +1,6 @@
-package Interfaces;
+package br.ufma.lsdi.ssd.Interfaces;
 
-import Model.Query;
+import br.ufma.lsdi.ssd.Model.Query;
 
 /**
  * Created by Anderson on 07/06/2018.

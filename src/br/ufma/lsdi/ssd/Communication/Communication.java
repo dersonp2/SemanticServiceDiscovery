@@ -1,7 +1,7 @@
-package Communication;
+package br.ufma.lsdi.ssd.Communication;
 
-import Model.Query;
-import Implements.ObservableImpl;
+import br.ufma.lsdi.ssd.Model.Query;
+import br.ufma.lsdi.ssd.Implements.ObservableImpl;
 import com.google.gson.Gson;
 import org.eclipse.paho.client.mqttv3.*;
 
@@ -9,8 +9,8 @@ import org.eclipse.paho.client.mqttv3.*;
 public class Communication {
     //Mqtt
     private MqttClient cliente = null;
-    private static String queryTopic = "QueryCSparql";
-    private String responseTopic = "responseQuery/";
+    final private String TOPIC_RESPONSE = "responseQuery/";
+    final private String TOPIC_QUERY = "QueryCSparql";
     private MqttMessage message;
 
     //Classe
@@ -19,13 +19,14 @@ public class Communication {
 
     //Json
     private Gson gson = null;
+    private String topic = null;
 
     public void query(Query query, ObservableImpl observableImpl) {
         this.observable = observableImpl;
         this.query = new Query.Builder().build();
         this.query = query;
         System.out.println(""+this.query.getQuery()+" - "+this.query.getPublisherID());
-        System.out.println("*-*-*-*-*-*- Communication - recebeu a consulta");
+        System.out.println("*-*-*-*-*-*-Communication - recebeu a consulta");
         try{
             publish();
         }catch (Exception e){
@@ -34,17 +35,17 @@ public class Communication {
     }
 
     private void publish() {
-        cliente = Connect.getInstance().Connection();
+        connect();
         gson = new Gson();
         String m =gson.toJson(query);
-        System.out.println("*-*-*-*-*-*- Communication - Publish()");
+        System.out.println("*-*-*-*-*-*-Communication - Publish()");
         try {
             message = new MqttMessage();
             message.setQos(2);
             message.setRetained(false);
             message.setPayload(m.getBytes());
-            cliente.publish(queryTopic, message);
-            System.out.println("*-*-*-*-*-*- Communication - Publicou a consulta");
+            cliente.publish(TOPIC_QUERY, message);
+            System.out.println("*-*-*-*-*-*-Communication - Publicou a consulta");
             responseQuery();
         } catch (MqttException e) {
             e.printStackTrace();
@@ -52,12 +53,12 @@ public class Communication {
     }
 
     private void responseQuery() {
-        cliente = Connect.getInstance().Connection();
-        System.out.println("*-*-*-*-*-*- Communication - responseQuery()");
-        responseTopic+= query.getReturnCode();
+        connect();
+        System.out.println("*-*-*-*-*-*-Communication - responseQuery()");
+        topic = TOPIC_RESPONSE + query.getReturnCode();
         try{
-            cliente.subscribe(responseTopic);
-            System.out.println("*-*-*-*-*-*- Communication - Subscreveu em: "+responseTopic);
+            cliente.subscribe(topic);
+            System.out.println("*-*-*-*-*-*-Communication - Subscreveu em: "+ topic);
             cliente.setCallback(new MqttCallbackExtended() {
                 @Override
                 public void connectComplete(boolean b, String s) {
@@ -67,15 +68,15 @@ public class Communication {
                 @Override
                 public void connectionLost(Throwable throwable) {
                     System.out.println("ConnectionLost");
+                    responseQuery();
                 }
 
                 @Override
                 public void messageArrived(String s, MqttMessage mqttMessage) throws Exception {
                     System.out.println("messageArrived");
-                    System.out.println("*-*-*-*-*-*- Communication - Recebeu uma mensagem");
+                    System.out.println("*-*-*-*-*-*-Communication - Recebeu uma mensagem porrraa");
                     String m =  String.valueOf(message.getPayload());
                     observable.notifyListener(m);
-
                 }
 
                 @Override
@@ -93,4 +94,12 @@ public class Communication {
         cliente = Connect.getInstance().Connection();
     }
 
+    public void disconnect() {
+        try {
+            cliente.unsubscribe(topic);
+            cliente.disconnect();
+        } catch (MqttException e) {
+            e.printStackTrace();
+        }
+    }
 }
