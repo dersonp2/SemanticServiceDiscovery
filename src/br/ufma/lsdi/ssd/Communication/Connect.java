@@ -19,10 +19,10 @@ public class Connect {
         }
         return instance;
     }
-    public MqttClient Connection(){
+    public MqttClient Connection(String clientID){
         if(client == null){
             try {
-                client = new MqttClient(brokerUrl, "SubscribreCliente", dataStore);
+                client = new MqttClient(brokerUrl, clientID, dataStore);
                 client.connect();
                 System.out.println("*-*-*-*-*-*- Connect - Conect()");
             } catch (MqttException e) {

@@ -8,7 +8,7 @@ import org.eclipse.paho.client.mqttv3.*;
 
 public class Communication {
     //Mqtt
-    private MqttClient cliente = null;
+    private MqttClient client = null;
     final private String TOPIC_RESPONSE = "responseQuery/";
     final private String TOPIC_QUERY = "QueryCSparql";
     private MqttMessage message;
@@ -44,7 +44,7 @@ public class Communication {
             message.setQos(2);
             message.setRetained(false);
             message.setPayload(m.getBytes());
-            cliente.publish(TOPIC_QUERY, message);
+            client.publish(TOPIC_QUERY, message);
             System.out.println("*-*-*-*-*-*-Communication - Publicou a consulta");
             responseQuery();
         } catch (MqttException e) {
@@ -57,9 +57,9 @@ public class Communication {
         System.out.println("*-*-*-*-*-*-Communication - responseQuery()");
         topic = TOPIC_RESPONSE + query.getReturnCode();
         try{
-            cliente.subscribe(topic);
+            client.subscribe(topic);
             System.out.println("*-*-*-*-*-*-Communication - Subscreveu em: "+ topic);
-            cliente.setCallback(new MqttCallbackExtended() {
+            client.setCallback(new MqttCallbackExtended() {
                 @Override
                 public void connectComplete(boolean b, String s) {
                     System.out.println("connectComplete");
@@ -91,13 +91,13 @@ public class Communication {
     }
 
     public void connect(){
-        cliente = Connect.getInstance().Connection();
+        client = Connect.getInstance().Connection(query.getPublisherID());
     }
 
     public void disconnect() {
         try {
-            cliente.unsubscribe(topic);
-            cliente.disconnect();
+            client.unsubscribe(topic);
+            client.disconnect();
         } catch (MqttException e) {
             e.printStackTrace();
         }
