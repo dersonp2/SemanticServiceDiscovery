@@ -1,9 +1,11 @@
 package br.ufma.lsdi.ssd.Communication;
 
+import br.ufma.lsdi.ssd.ConfigLog.ConfigLog;
 import br.ufma.lsdi.ssd.Model.Query;
 import br.ufma.lsdi.ssd.Implements.ObservableImpl;
 import com.google.gson.Gson;
 import org.eclipse.paho.client.mqttv3.*;
+import org.slf4j.Logger;
 
 
 public class Communication {
@@ -20,86 +22,87 @@ public class Communication {
     //Json
     private Gson gson = null;
     private String topic = null;
+    private Logger logger;
 
     public void query(Query query, ObservableImpl observableImpl) {
+        logger = new ConfigLog().log(ObservableImpl.class);
+        logger.info("Recebeu a consulta");
         this.observable = observableImpl;
         this.query = new Query.Builder().build();
         this.query = query;
-        System.out.println(""+this.query.getQuery()+" - "+this.query.getPublisherID());
-        System.out.println("*-*-*-*-*-*-Communication - recebeu a consulta");
-        try{
+        try {
             publish();
-        }catch (Exception e){
-
+        } catch (Exception e) {
+            logger.error("Erro no método Publish");
         }
     }
 
     private void publish() {
         connect();
         gson = new Gson();
-        String m =gson.toJson(query);
-        System.out.println("*-*-*-*-*-*-Communication - Publish()");
+        String m = gson.toJson(query);
         try {
             message = new MqttMessage();
             message.setQos(2);
             message.setRetained(false);
             message.setPayload(m.getBytes());
             client.publish(TOPIC_QUERY, message);
-            System.out.println("*-*-*-*-*-*-Communication - Publicou a consulta");
+            logger.info("Publicou a consulta");
             responseQuery();
         } catch (MqttException e) {
             e.printStackTrace();
+            logger.error("Erro ao publicar a consulta");
         }
     }
 
     private void responseQuery() {
         connect();
-        System.out.println("*-*-*-*-*-*-Communication - responseQuery()");
         topic = TOPIC_RESPONSE + query.getReturnCode();
-        try{
+        try {
             client.subscribe(topic);
-            System.out.println("*-*-*-*-*-*-Communication - Subscreveu em: "+ topic);
+            logger.info("Subscreveu em: " + topic);
             client.setCallback(new MqttCallbackExtended() {
                 @Override
                 public void connectComplete(boolean b, String s) {
-                    System.out.println("connectComplete");
+                    logger.info("connectComplete");
                 }
 
                 @Override
                 public void connectionLost(Throwable throwable) {
-                    System.out.println("ConnectionLost");
+                    logger.info("ConnectionLost");
                     responseQuery();
                 }
 
                 @Override
                 public void messageArrived(String s, MqttMessage mqttMessage) throws Exception {
-                    System.out.println("messageArrived");
-                    System.out.println("*-*-*-*-*-*-Communication - Recebeu uma mensagem porrraa");
-                    String m =  String.valueOf(message.getPayload());
+                    logger.info("messageArrived");
+                    String m = String.valueOf(message.getPayload());
                     observable.notifyListener(m);
                 }
 
                 @Override
                 public void deliveryComplete(IMqttDeliveryToken iMqttDeliveryToken) {
-                    System.out.println("deliveryComplete");
+                    logger.info("deliveryComplete");
                 }
             });
-        }catch (MqttException e){
-
+        } catch (MqttException e) {
+            e.printStackTrace();
+            logger.error("Erro ao se subscrever em: " + topic);
         }
 
     }
 
-    public void connect(){
+    public void connect() {
         client = Connect.getInstance().Connection(query.getPublisherID());
     }
 
     public void disconnect() {
         try {
             client.unsubscribe(topic);
-            client.disconnect();
+            logger.info("Desconectou");
         } catch (MqttException e) {
             e.printStackTrace();
+            logger.error("Erro ao se desconectar");
         }
     }
 }
