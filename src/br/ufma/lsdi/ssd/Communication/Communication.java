@@ -2,7 +2,7 @@ package br.ufma.lsdi.ssd.Communication;
 
 import br.ufma.lsdi.ssd.ConfigLog.ConfigLog;
 import br.ufma.lsdi.ssd.Model.Query;
-import br.ufma.lsdi.ssd.Implements.ObservableImpl;
+import br.ufma.lsdi.ssd.Implements.ResultReceiver;
 import com.google.gson.Gson;
 import org.eclipse.paho.client.mqttv3.*;
 import org.slf4j.Logger;
@@ -16,7 +16,7 @@ public class Communication {
     private MqttMessage message;
 
     //Classe
-    private ObservableImpl observable = null;
+    private ResultReceiver observable = null;
     private Query query = null;
 
     //Json
@@ -24,21 +24,23 @@ public class Communication {
     private String topic = null;
     private Logger logger;
 
-    public void query(Query query, ObservableImpl observableImpl) {
-        logger = new ConfigLog().log(ObservableImpl.class);
+    public void query(Query query, ResultReceiver resultReceiver) {
+        logger = new ConfigLog().log(ResultReceiver.class);
         logger.info("Recebeu a consulta");
-        this.observable = observableImpl;
+        this.observable = resultReceiver;
         this.query = new Query.Builder().build();
         this.query = query;
-        try {
+        connect();
+        //Tratamento de NullPoint
+        if (client != null){
             publish();
-        } catch (Exception e) {
-            logger.error("Erro no método Publish");
+        }else{
+            failedConnect();
         }
     }
 
     private void publish() {
-        connect();
+        //connect();
         gson = new Gson();
         String m = gson.toJson(query);
         try {
@@ -56,7 +58,7 @@ public class Communication {
     }
 
     private void responseQuery() {
-        connect();
+        //connect();
         topic = TOPIC_RESPONSE + query.getReturnCode();
         try {
             client.subscribe(topic);
@@ -104,5 +106,9 @@ public class Communication {
             e.printStackTrace();
             logger.error("Erro ao se desconectar");
         }
+    }
+
+    public void failedConnect(){
+        observable.notifyListener("Failed to connect to broker");
     }
 }

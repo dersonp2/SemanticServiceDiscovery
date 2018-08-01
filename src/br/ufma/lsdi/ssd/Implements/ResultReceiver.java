@@ -15,7 +15,7 @@ import org.slf4j.Logger;
  * @version 0.1
  */
 
-public class ObservableImpl implements Observable {
+public class ResultReceiver implements Observable {
     private Communication communication = new Communication();
     private Listener listener;
     private Logger logger;
@@ -23,10 +23,11 @@ public class ObservableImpl implements Observable {
 
     @Override
     public void addListener(Query query, Listener listener) {
-        logger = new ConfigLog().log(ObservableImpl.class);
+        logger = new ConfigLog().log(ResultReceiver.class);
         logger.info("Recebeu a consulta");
-        communication.query(query, this);
         this.listener = listener;
+        communication.query(query, this);
+
     }
 
     @Override
