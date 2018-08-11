@@ -1,4 +1,5 @@
 import br.ufma.lsdi.ssd.ConfigLog.ConfigLog;
+import br.ufma.lsdi.ssd.Model.OntologyPrefix;
 import br.ufma.lsdi.ssd.Model.Query;
 import br.ufma.lsdi.ssd.Interfaces.Listener;
 import br.ufma.lsdi.ssd.Implements.ResultReceiver;
@@ -14,12 +15,32 @@ public class Main {
     }
 
     public static void consulta(){
-        String query = "REGISTER QUERY UpStreamQuery AS "
-                + "SELECT ?s "
-                + "FROM STREAM <stream1> [RANGE 12s STEP 5s] "
-                + "WHERE { ?s ?p ?o}";
 
-        Query q = new Query.Builder().query(query)
+        OntologyPrefix p = new OntologyPrefix();
+        String query = "REGISTER QUERY MhubSemantic AS "
+                + "PREFIX ex:<http://mycsparql.lsdi/> "
+                + "SELECT ?s ?p ?o "
+                + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
+                + "WHERE { ?s ?p ?o }";
+
+        String query2 ="REGISTER QUERY MhubSemantic AS "
+                + "PREFIX iotlite:<"+p.getIotlite()+"> "
+                + "PREFIX sosa:<"+p.getSosa()+"> "
+                + "SELECT ?result "
+                + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
+                + "WHERE { "
+                + "?id iotlite:hasQuatityKind iotlite:Temperature . "
+                + "?id sosa:hasResult ?result"
+                + " }";
+
+        String query3 ="REGISTER QUERY MhubSemantic AS "
+                + "PREFIX iotlite:<"+p.getIotlite()+"> "
+                + "SELECT ?id "
+                + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
+                + "WHERE { ?id iotlite:hasQuatityKind iotlite:Temperature }";
+
+
+        Query q = new Query.Builder().query(query3)
                 .continuos(true)
                 .publisherID("Anderson@lsdi.ufma.br")
                 .build();

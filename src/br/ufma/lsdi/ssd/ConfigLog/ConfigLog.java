@@ -7,12 +7,13 @@ import org.slf4j.LoggerFactory;
 
 public class ConfigLog {
     public ConfigLog() {
+
     }
 
     public Logger log (Class c){
         Logger logger = LoggerFactory.getLogger(c);
         //PropertyConfigurator.configure("log4j.properties");
-        //BasicConfigurator.configure();
+        BasicConfigurator.configure();
        /* String caminho = "src/ConfigLog/csparql_log4j.properties";
         try {
             PropertyConfigurator.configure(caminho);
