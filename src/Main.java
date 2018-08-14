@@ -1,4 +1,5 @@
 import br.ufma.lsdi.ssd.ConfigLog.ConfigLog;
+import br.ufma.lsdi.ssd.Formatter.Formater;
 import br.ufma.lsdi.ssd.Model.OntologyPrefix;
 import br.ufma.lsdi.ssd.Model.Query;
 import br.ufma.lsdi.ssd.Interfaces.Listener;
@@ -8,13 +9,14 @@ import org.slf4j.Logger;
 public class Main {
 
     private static Logger logger = null;
+    private static String[] result;
 
     public static void main(String[] args) {
         logger = new ConfigLog().log(Main.class);
         consulta();
     }
 
-    public static void consulta(){
+    public static void consulta() {
 
         OntologyPrefix p = new OntologyPrefix();
         String query = "REGISTER QUERY MhubSemantic AS "
@@ -23,9 +25,9 @@ public class Main {
                 + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
                 + "WHERE { ?s ?p ?o }";
 
-        String query2 ="REGISTER QUERY MhubSemantic AS "
-                + "PREFIX iotlite:<"+p.getIotlite()+"> "
-                + "PREFIX sosa:<"+p.getSosa()+"> "
+        String query2 = "REGISTER QUERY MhubSemantic AS "
+                + "PREFIX iotlite:<" + p.getIotlite() + "> "
+                + "PREFIX sosa:<" + p.getSosa() + "> "
                 + "SELECT ?result "
                 + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
                 + "WHERE { "
@@ -33,8 +35,8 @@ public class Main {
                 + "?id sosa:hasResult ?result"
                 + " }";
 
-        String query3 ="REGISTER QUERY MhubSemantic AS "
-                + "PREFIX iotlite:<"+p.getIotlite()+"> "
+        String query3 = "REGISTER QUERY MhubSemantic AS "
+                + "PREFIX iotlite:<" + p.getIotlite() + "> "
                 + "SELECT ?id "
                 + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
                 + "WHERE { ?id iotlite:hasQuatityKind iotlite:Temperature }";
@@ -48,8 +50,10 @@ public class Main {
         ResultReceiver consulta = new ResultReceiver();
         consulta.addListener(q, new Listener() {
             @Override
-            public void update(String obj) {
-            logger.info(obj);
+            public void update(java.util.Observable o, Object arg) {
+                Formater ftt = new Formater();
+                result = ftt.formatter(arg);
+
             }
         });
     }

@@ -37,9 +37,9 @@ public class ResultReceiver implements Observable {
     }
 
     @Override
-    public void notifyListener(String obj) {
+    public void notifyListener(java.util.Observable o, Object arg) {
         if (listener != null)
-            listener.update(obj);
+            listener.update(o,arg); //mudar
     }
 
     public void disconnect(Listener listener) {

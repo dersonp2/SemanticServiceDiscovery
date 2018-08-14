@@ -3,6 +3,7 @@ package br.ufma.lsdi.ssd.Communication;
 import br.ufma.lsdi.ssd.ConfigLog.ConfigLog;
 import br.ufma.lsdi.ssd.Model.Query;
 import br.ufma.lsdi.ssd.Implements.ResultReceiver;
+import br.ufma.lsdi.ssd.Model.ResponseQuery;
 import com.google.gson.Gson;
 import org.eclipse.paho.client.mqttv3.*;
 import org.slf4j.Logger;
@@ -79,7 +80,8 @@ public class Communication {
                 public void messageArrived(String s, MqttMessage mqttMessage) throws Exception {
                     logger.info("messageArrived");
                     String m = String.valueOf(message.getPayload());
-                    observable.notifyListener(m);
+                    notifyListener(m);
+
                 }
 
                 @Override
@@ -98,6 +100,13 @@ public class Communication {
         client = Connect.getInstance().Connection(query.getPublisherID());
     }
 
+    public void notifyListener(String m){
+        Gson gson = new Gson();
+        ResponseQuery rq  = gson.fromJson(m, ResponseQuery.class);
+
+        observable.notifyListener(rq.getO(), rq.getArg());
+    }
+
     public void disconnect() {
         try {
             client.unsubscribe(topic);
@@ -109,6 +118,6 @@ public class Communication {
     }
 
     public void failedConnect(){
-        observable.notifyListener("Failed to connect to broker");
+        //observable.notifyListener("Failed to connect to broker");
     }
 }

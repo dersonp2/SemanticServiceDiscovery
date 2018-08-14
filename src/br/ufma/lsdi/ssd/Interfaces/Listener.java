@@ -5,5 +5,5 @@ package br.ufma.lsdi.ssd.Interfaces;
  */
 
 public interface Listener {
-    public void update(String obj);
+    public void update(java.util.Observable o, Object arg);
 }
