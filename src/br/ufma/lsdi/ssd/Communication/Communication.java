@@ -5,8 +5,12 @@ import br.ufma.lsdi.ssd.Model.Query;
 import br.ufma.lsdi.ssd.Implements.ResultReceiver;
 import br.ufma.lsdi.ssd.Model.ResponseQuery;
 import com.google.gson.Gson;
+import eu.larkc.csparql.common.RDFTable;
+import eu.larkc.csparql.common.RDFTuple;
 import org.eclipse.paho.client.mqttv3.*;
 import org.slf4j.Logger;
+
+import java.util.Iterator;
 
 
 public class Communication {
@@ -26,8 +30,8 @@ public class Communication {
     private Logger logger;
 
     public void query(Query query, ResultReceiver resultReceiver) {
-        logger = new ConfigLog().log(ResultReceiver.class);
-        logger.info("Recebeu a consulta");
+        logger = new ConfigLog().log(Communication.class);
+        //logger.info("Recebeu a consulta");
         this.observable = resultReceiver;
         this.query = new Query.Builder().build();
         this.query = query;
@@ -50,7 +54,7 @@ public class Communication {
             message.setRetained(false);
             message.setPayload(m.getBytes());
             client.publish(TOPIC_QUERY, message);
-            logger.info("Publicou a consulta");
+            System.out.println("Communication.Communication  - published the query\n");
             responseQuery();
         } catch (MqttException e) {
             e.printStackTrace();
@@ -63,7 +67,7 @@ public class Communication {
         topic = TOPIC_RESPONSE + query.getReturnCode();
         try {
             client.subscribe(topic);
-            logger.info("Subscreveu em: " + topic);
+            System.out.println("Communication.Communication  - Subscribed in response\n");
             client.setCallback(new MqttCallbackExtended() {
                 @Override
                 public void connectComplete(boolean b, String s) {
@@ -78,20 +82,20 @@ public class Communication {
 
                 @Override
                 public void messageArrived(String s, MqttMessage mqttMessage) throws Exception {
-                    logger.info("messageArrived");
-                    String m = String.valueOf(message.getPayload());
-                    notifyListener(m);
-
+                    gson = new Gson();
+                    String mgson = new String(mqttMessage.getPayload());
+                    ResponseQuery rq = gson.fromJson(mgson, ResponseQuery.class);
+                    notifyListener(rq);
                 }
 
                 @Override
                 public void deliveryComplete(IMqttDeliveryToken iMqttDeliveryToken) {
-                    logger.info("deliveryComplete");
+                    //logger.info("deliveryComplete");
                 }
             });
         } catch (MqttException e) {
             e.printStackTrace();
-            logger.error("Erro ao se subscrever em: " + topic);
+            logger.error("Error Subscribe: " + topic);
         }
 
     }
@@ -100,11 +104,8 @@ public class Communication {
         client = Connect.getInstance().Connection(query.getPublisherID());
     }
 
-    public void notifyListener(String m){
-        Gson gson = new Gson();
-        ResponseQuery rq  = gson.fromJson(m, ResponseQuery.class);
-
-        observable.notifyListener(rq.getO(), rq.getArg());
+    public void notifyListener(ResponseQuery rq){
+       observable.notifyListener(rq.getObservable(), rq.getRdfTuples());
     }
 
     public void disconnect() {

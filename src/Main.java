@@ -66,11 +66,11 @@ public class Main {
             public void update(java.util.Observable o, ArrayList<RDFTuple> rdfTuples) {
 
               ArrayList<String> result = new Formatter().toString(rdfTuples);
-              for(int i =0; i<result.size();i++){
+              System.out.println("O valor da temperatura é de: "+result.get(0));
+
+              /*for(int i =0; i<result.size();i++){
                   System.out.println("O valor da temperatura é de: "+result.get(i));
-              }
-
-
+              }*/
             }
 
         });

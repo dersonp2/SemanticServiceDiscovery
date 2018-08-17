@@ -11,3 +11,938 @@
 2018-08-01 10:23:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
 2018-08-01 10:23:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
 2018-08-01 10:23:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/79e2d23d-d463-4c26-873a-4d5a8f9e3e85
+2018-08-14 10:39:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:39:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:39:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 10:39:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/3ac6455a-7c19-470c-8aff-a86ef199d3c7
+2018-08-14 10:39:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:39:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:39:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 10:39:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/1388b7c8-43bf-4aa3-a531-caaa29c0b66e
+2018-08-14 10:43:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:43:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:43:52 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 10:43:52 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/1388b7c8-43bf-4aa3-a531-caaa29c0b66e
+2018-08-14 10:45:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:45:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:45:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 10:45:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/e171e802-04f1-494d-8af9-47485150c8a4
+2018-08-14 10:46:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:46:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:46:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 10:46:51 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/e171e802-04f1-494d-8af9-47485150c8a4
+2018-08-14 10:46:51 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 10:47:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:47:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:47:40 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 10:47:40 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/7a25b3ac-1e79-4bf6-a24a-72fd82c48afc
+2018-08-14 10:48:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:48:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:48:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 10:48:18 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/7a25b3ac-1e79-4bf6-a24a-72fd82c48afc
+2018-08-14 10:48:18 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 10:48:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:48:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:48:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 10:48:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/81cc9960-9635-4e98-b2c6-b3c8b855f7e5
+2018-08-14 10:49:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:49:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:49:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 10:49:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/dd8c37ce-3cce-4439-8f72-aae9e396126d
+2018-08-14 10:54:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:54:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:54:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 10:54:07 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/dd8c37ce-3cce-4439-8f72-aae9e396126d
+2018-08-14 10:54:07 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 10:54:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:54:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:54:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 10:54:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/7b933c1e-39ed-48d6-8db8-98599244eb4b
+2018-08-14 10:54:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:54:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:54:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 10:54:50 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/7b933c1e-39ed-48d6-8db8-98599244eb4b
+2018-08-14 10:54:51 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 10:55:00 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:55:00 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:55:01 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 10:55:01 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/15a0cb3e-0906-487b-bf63-5886cc07a654
+2018-08-14 10:55:23 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:55:23 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:55:23 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 10:55:23 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/15a0cb3e-0906-487b-bf63-5886cc07a654
+2018-08-14 10:55:23 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 10:55:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:55:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 10:55:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 10:55:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/3c7e09ba-e56b-43b9-a694-cc3633d39404
+2018-08-14 11:16:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:16:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:16:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:16:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/db27cd77-53e0-4c7b-b994-639d624ccefa
+2018-08-14 11:17:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:17:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:17:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:17:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/f211e9ec-3527-4cc5-b3f2-f8daa31fea1c
+2018-08-14 11:18:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:18:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:18:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 11:18:09 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/f211e9ec-3527-4cc5-b3f2-f8daa31fea1c
+2018-08-14 11:18:17 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:18:17 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:18:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:18:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/c2c0d7e2-faf2-4035-95b8-f7a33dc37fd1
+2018-08-14 11:18:21 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:18:21 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 11:18:21 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/c2c0d7e2-faf2-4035-95b8-f7a33dc37fd1
+2018-08-14 11:21:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:21:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:21:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:21:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/8f421433-4f77-4598-b606-689c18d0898d
+2018-08-14 11:21:59 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:21:59 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:22:00 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:22:00 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/cb38339d-e8f1-4ea1-8223-0ee9dba27ada
+2018-08-14 11:22:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:22:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 11:22:14 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/cb38339d-e8f1-4ea1-8223-0ee9dba27ada
+2018-08-14 11:22:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:22:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:22:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:22:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/f924fa8a-30db-4721-afc6-b4cee28e2ff4
+2018-08-14 11:22:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:22:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 11:22:50 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/f924fa8a-30db-4721-afc6-b4cee28e2ff4
+2018-08-14 11:25:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:25:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:25:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:25:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/1ebacddb-7062-44fc-a96a-5e8057cb4933
+2018-08-14 11:25:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:25:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 11:25:45 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/1ebacddb-7062-44fc-a96a-5e8057cb4933
+2018-08-14 11:26:23 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:26:23 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:26:23 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:26:23 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/b1a0db32-eebe-4ad3-a832-0f380f823e08
+2018-08-14 11:26:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:36:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:36:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:36:24 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:36:24 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/2f1bd98a-cbd0-4d13-8bde-7f3f22d07785
+2018-08-14 11:36:24 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 11:36:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:36:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:36:40 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:36:40 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/18407e0b-44d9-4750-846f-f15a6a130c39
+2018-08-14 11:36:43 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:39:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:39:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:39:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/3eab6e7c-2130-4231-b498-a020e78db37f
+2018-08-14 11:39:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:39:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:39:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:39:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:39:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/8dd265cd-c860-447c-acc7-a6acfeb13b2e
+2018-08-14 11:39:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:40:29 INFO  Main                  Recebeu a responda bb
+2018-08-14 11:40:59 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:41:00 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:41:01 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:41:01 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/2d898433-59d8-4014-a275-a829ac3e1143
+2018-08-14 11:41:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:41:14 INFO  Main                  Recebeu a responda bb
+2018-08-14 11:41:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:41:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:41:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:41:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/2609d02a-e506-480d-bc7f-07fa3c7bad7e
+2018-08-14 11:41:59 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:42:04 INFO  Main                  Recebeu a responda bb
+2018-08-14 11:42:48 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:42:48 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:42:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:42:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/7717953c-e72b-4419-8b04-5342de343a35
+2018-08-14 11:42:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:42:57 INFO  Main                  Recebeu a responda bb
+2018-08-14 11:43:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 11:50:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:50:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:50:06 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:50:06 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/757dafe2-58bf-4e0f-830d-7afd312ec5dd
+2018-08-14 11:50:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:50:36 INFO  Main                  Recebeu a responda bb
+2018-08-14 11:50:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:50:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 11:50:43 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 11:50:43 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/63457a3c-d3fb-4e00-a4ee-a7031c805494
+2018-08-14 11:50:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 11:50:59 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:00:24 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:00:24 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:00:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:00:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/901e399e-359e-4ceb-86eb-92e9d998edf0
+2018-08-14 12:01:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:01:12 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:01:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 12:01:12 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/901e399e-359e-4ceb-86eb-92e9d998edf0
+2018-08-14 12:01:52 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:01:52 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:01:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:01:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/75d1a1d4-9e0e-435c-936a-765b364507bd
+2018-08-14 12:01:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 12:05:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:05:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:05:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:05:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/f6c42d5d-ebee-46a9-8aca-dae2a810c494
+2018-08-14 12:05:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 12:05:34 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:09:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:09:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:09:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:09:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/6ead0e7e-3c1a-4caa-8cab-d20cebf87d84
+2018-08-14 12:09:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:09:57 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 12:11:21 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:11:21 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:11:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:11:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/42af6101-2136-47f2-a1e4-825f50ad6ad5
+2018-08-14 12:11:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:11:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 12:12:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:12:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:12:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:12:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/6c526f38-8251-4873-bf7a-792a78d7bd44
+2018-08-14 12:12:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 12:12:30 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:12:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:12:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:12:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:12:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:13:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:13:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:13:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:13:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/c9c51d81-8214-4ecc-aa4e-c3d6adaeef54
+2018-08-14 12:13:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 12:16:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:16:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:16:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:16:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/c53c21f2-9451-4f2d-b491-a88daba73592
+2018-08-14 12:16:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:17:02 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:17:02 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:17:02 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:17:02 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:17:02 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:17:02 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:17:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:17:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:17:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:17:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/0fbbf494-d5ae-401a-a6a4-14569a4f8f2d
+2018-08-14 12:17:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:24:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:24:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:24:06 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:24:06 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/7f871f1b-ae3e-4031-8f43-2591820bf058
+2018-08-14 12:24:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:24:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:24:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:24:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:24:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:24:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:24:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:24:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:24:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:24:29 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:24:29 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/718d2f59-4962-40bf-9c34-88205e9daf35
+2018-08-14 12:24:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:24:46 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:25:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:25:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:25:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:25:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/d0aa7ac3-468b-424f-97b5-0ff557057f38
+2018-08-14 12:26:00 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:26:08 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:27:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:27:03 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:27:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:27:03 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:27:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:27:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:27:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:27:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:27:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/a25c3908-81e7-46b2-94ae-b2ca9a4bb8eb
+2018-08-14 12:27:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:27:48 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:30:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:30:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:30:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:30:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/95b93d4b-1264-4ae6-b777-1b3d12a97a06
+2018-08-14 12:30:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 12:30:17 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:30:23 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:31:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 12:31:12 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/95b93d4b-1264-4ae6-b777-1b3d12a97a06
+2018-08-14 12:31:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:31:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:31:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:31:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/ba19efeb-cb7c-41dc-b065-cfdc3ddd3576
+2018-08-14 12:31:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:31:31 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:50:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:50:13 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:50:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:50:13 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:50:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:50:13 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:50:30 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:50:30 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:50:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:50:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/72b0dada-b23f-49ec-ae31-50f134a8f00a
+2018-08-14 12:50:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:50:42 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:53:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:53:13 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:53:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:53:13 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:53:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:53:13 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:53:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:53:13 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:53:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:53:13 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:53:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:53:13 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:53:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:53:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:53:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:53:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:53:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/dc41714d-f149-4502-a0a6-398b3ff81d23
+2018-08-14 12:53:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 12:53:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:53:49 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:54:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:54:03 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:54:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:54:03 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:54:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:54:03 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:54:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:54:03 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:54:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:54:03 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:55:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:55:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:55:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:55:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/2a9b8857-ec3b-44d6-853c-545c35f01030
+2018-08-14 12:55:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:55:16 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:55:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:55:45 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:55:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:55:45 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:55:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:55:45 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:55:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:55:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:55:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:55:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:55:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/412e892d-56ec-4b56-bf91-e8d224cfae5a
+2018-08-14 12:55:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 12:55:58 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:56:01 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:56:34 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:56:34 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:56:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:56:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/cebaa4ba-8474-45bc-b95e-e10d029c03b4
+2018-08-14 12:56:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 12:57:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:57:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:57:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:57:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/1f25a9be-a57a-4d3c-b3fe-914b09de9d2b
+2018-08-14 12:57:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:57:11 INFO  Main                  Recebeu a responda bb
+2018-08-14 12:59:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:59:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 12:59:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 12:59:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/24290df2-7a44-43a3-8259-f7542ebf7eed
+2018-08-14 12:59:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 12:59:12 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:28:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:28:22 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:28:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:28:22 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:28:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:28:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:28:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:28:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 13:28:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/fa8f3dcd-636b-4c1e-ab32-4591d7b773cb
+2018-08-14 13:29:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:29:22 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:31:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:31:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:31:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 13:31:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/6c55baef-c8bf-430b-9cb7-f2ce84aa7fc6
+2018-08-14 13:32:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:32:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:32:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 13:32:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/af44a9c9-25c0-4052-9f7a-853cbe04edf0
+2018-08-14 13:32:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:32:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:27 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:37:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:37:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:37:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:37:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 13:37:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/e9920c17-f38d-43df-9433-b847686de6cc
+2018-08-14 13:39:44 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:39:44 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:39:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 13:39:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/334641c3-5a52-4e6e-b1da-f2a2a8d3f604
+2018-08-14 13:39:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:47:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:47:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:47:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 13:47:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/e7acbd37-1105-4e10-b339-ae68482db2b5
+2018-08-14 13:48:02 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:48:05 INFO  Main                  Recebeu a responda bb
+2018-08-14 13:50:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:50:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 13:50:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 13:50:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/2b9a419c-1d2a-4c75-9b46-17caf7489138
+2018-08-14 13:50:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 13:50:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 13:50:12 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:20 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:20 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:20 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:20 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:20 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:00:28 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:00:29 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 14:00:29 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/92717eba-a7b8-462f-b94b-d0dc2b9423f1
+2018-08-14 14:00:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:32 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:32 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:34 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:34 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:34 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:34 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:36 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:36 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:37 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:38 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:38 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:00:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-14 14:00:39 INFO  Main                  Recebeu a responda bb
+2018-08-14 14:01:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:01:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:01:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 14:01:37 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/92717eba-a7b8-462f-b94b-d0dc2b9423f1
+2018-08-14 14:01:37 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 14:01:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:01:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:01:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 14:01:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/e1345826-2f51-45d3-bf85-233d79e70095
+2018-08-14 14:52:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:52:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:52:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 14:52:35 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/e1345826-2f51-45d3-bf85-233d79e70095
+2018-08-14 14:52:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:52:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:52:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 14:52:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/f7c4b028-07c9-4142-bbf7-a91823ca4862
+2018-08-14 14:55:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:55:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:55:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 14:55:51 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/f7c4b028-07c9-4142-bbf7-a91823ca4862
+2018-08-14 14:55:51 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 14:55:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:55:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 14:55:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 14:55:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/13fa9b5c-dcce-4b63-a1d7-5bf1a93e0a35
+2018-08-14 15:03:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:03:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:03:06 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:03:06 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:03:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 15:03:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/345a0e7e-e2be-4ffa-b819-2de86915dcc4
+2018-08-14 15:03:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:03:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:03:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 15:03:12 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/345a0e7e-e2be-4ffa-b819-2de86915dcc4
+2018-08-14 15:03:12 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 15:07:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:07:04 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:07:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 15:07:05 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/426013ac-5d47-436e-9583-dd80ac75006b
+2018-08-14 15:13:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:13:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:13:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 15:13:47 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/426013ac-5d47-436e-9583-dd80ac75006b
+2018-08-14 15:13:48 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 15:13:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:13:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:13:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 15:13:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/7c635f78-58b3-479b-83a9-b0a2f91509f6
+2018-08-14 15:33:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:33:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:33:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 15:33:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/25f0d7b7-fae0-4452-9104-2651440e83f9
+2018-08-14 15:34:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:34:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:34:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 15:34:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/f530483b-1170-4efc-bab6-b93188cc3784
+2018-08-14 15:34:43 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:34:43 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:34:43 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 15:34:43 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/f530483b-1170-4efc-bab6-b93188cc3784
+2018-08-14 15:34:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:34:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 15:34:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 15:34:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/0a37e7fc-6cad-47ac-9c49-90c346145624
+2018-08-14 16:02:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:02:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:02:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 16:02:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/ba038099-a45b-4b2a-9fed-fdb43d44b4bf
+2018-08-14 16:12:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:12:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:12:10 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 16:12:10 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/ba038099-a45b-4b2a-9fed-fdb43d44b4bf
+2018-08-14 16:12:10 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 16:12:21 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:12:21 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:12:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 16:12:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/61bacaa3-a8f2-48fa-9ff5-753294915a47
+2018-08-14 16:17:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:17:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:17:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 16:17:19 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/61bacaa3-a8f2-48fa-9ff5-753294915a47
+2018-08-14 16:17:19 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-14 16:17:23 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:17:23 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:17:24 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 16:17:24 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/3218f099-83ae-46aa-a8f6-26815eff9b17
+2018-08-14 16:20:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:20:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:20:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 16:20:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/bb055707-1eb2-43e2-8b07-9720681c1952
+2018-08-14 16:53:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:53:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:53:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 16:53:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/6073b7d4-7c4b-4834-b283-084fa486fa46
+2018-08-14 16:53:26 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-14 16:57:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:57:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 16:57:48 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 16:57:48 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/0f4b8279-833d-416d-9639-84e762066b6e
+2018-08-14 17:04:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:04:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:04:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 17:04:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/31338ab0-6ee1-4806-9c09-56cbec21408a
+2018-08-14 17:05:38 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:05:38 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:05:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 17:05:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/40731572-ad90-465a-ad23-7f0653acfbf3
+2018-08-14 17:07:24 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:07:24 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:07:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 17:07:25 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/e3f034de-7536-4e74-87ae-2728597b8bb0
+2018-08-14 17:48:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:48:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:48:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 17:48:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/91a7b127-dc51-4865-aa2c-9c13c66ad225
+2018-08-14 17:50:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:50:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:50:12 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 17:50:12 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/91a7b127-dc51-4865-aa2c-9c13c66ad225
+2018-08-14 17:50:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:50:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:50:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 17:50:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/31049c72-a9c8-4dea-bc6c-b0417b2104c0
+2018-08-14 17:51:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:51:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:51:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 17:51:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/13c78cb1-4e66-40e7-a336-fcbfeadcb729
+2018-08-14 17:53:15 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:53:15 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:53:15 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-14 17:53:15 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/8d2b2360-fbfa-4437-8f98-f6b78873b2e8
+2018-08-14 17:53:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:53:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-14 17:53:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-14 17:53:20 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/8d2b2360-fbfa-4437-8f98-f6b78873b2e8
+2018-08-14 17:53:20 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-15 11:26:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:26:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:26:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 11:26:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/0ac53e92-5418-4fb1-8cde-c3e12f542f7b
+2018-08-15 11:26:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-15 11:26:44 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:44 INFO  Main                  Receiver Result
+2018-08-15 11:26:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:45 INFO  Main                  Receiver Result
+2018-08-15 11:26:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:46 INFO  Main                  Receiver Result
+2018-08-15 11:26:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:47 INFO  Main                  Receiver Result
+2018-08-15 11:26:48 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:48 INFO  Main                  Receiver Result
+2018-08-15 11:26:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:49 INFO  Main                  Receiver Result
+2018-08-15 11:26:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:50 INFO  Main                  Receiver Result
+2018-08-15 11:26:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:51 INFO  Main                  Receiver Result
+2018-08-15 11:26:52 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:52 INFO  Main                  Receiver Result
+2018-08-15 11:26:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:53 INFO  Main                  Receiver Result
+2018-08-15 11:26:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:54 INFO  Main                  Receiver Result
+2018-08-15 11:26:55 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:26:55 INFO  Main                  Receiver Result
+2018-08-15 11:29:30 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:29:30 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:29:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 11:29:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/047308da-c898-42b3-bb93-87dd4ae8dc49
+2018-08-15 11:29:34 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:29:34 INFO  Main                  Receiver Result
+2018-08-15 11:29:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:29:35 INFO  Main                  Receiver Result
+2018-08-15 11:29:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:29:36 INFO  Main                  Receiver Result
+2018-08-15 11:29:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:29:37 INFO  Main                  Receiver Result
+2018-08-15 11:29:38 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:29:38 INFO  Main                  Receiver Result
+2018-08-15 11:39:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:39:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:39:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 11:39:41 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/e7d08b26-c557-4709-8f55-1bca1ddc1224
+2018-08-15 11:39:44 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:39:44 INFO  Main                  Receiver Result
+2018-08-15 11:39:44 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-15 11:39:44 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/e7d08b26-c557-4709-8f55-1bca1ddc1224
+2018-08-15 11:39:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:39:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:39:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 11:39:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/99550a44-6a4c-4768-8af6-d17462fe9b66
+2018-08-15 11:39:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:39:56 INFO  Main                  Receiver Result
+2018-08-15 11:39:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-15 11:39:56 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/99550a44-6a4c-4768-8af6-d17462fe9b66
+2018-08-15 11:40:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:40:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:40:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 11:40:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/7f0a3cfb-d983-434b-a30d-f81439853588
+2018-08-15 11:40:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  messageArrived
+2018-08-15 11:40:41 INFO  Main                  Receiver Result
+2018-08-15 11:41:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:41:56 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:41:57 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 11:41:57 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/7b17871b-f6c7-4c1f-9968-e5d7765745ea
+2018-08-15 11:42:06 INFO  Main                  Receiver Result
+2018-08-15 11:43:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:43:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:43:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 11:43:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/dfd0a3de-d0f1-4801-a787-5103bd7451fe
+2018-08-15 11:43:11 INFO  Main                  Receiver Result
+2018-08-15 11:43:11 INFO  Main                  Receiver Result
+2018-08-15 11:43:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-15 11:43:11 INFO  Main                  Receiver Result
+2018-08-15 11:43:11 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/7b17871b-f6c7-4c1f-9968-e5d7765745ea
+2018-08-15 11:43:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:43:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:43:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 11:43:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/cf399d0a-dac6-42d9-8123-88cd8dc43809
+2018-08-15 11:43:49 INFO  Main                  Receiver Result
+2018-08-15 11:43:50 INFO  Main                  Receiver Result
+2018-08-15 11:43:51 INFO  Main                  Receiver Result
+2018-08-15 11:43:52 INFO  Main                  Receiver Result
+2018-08-15 11:43:53 INFO  Main                  Receiver Result
+2018-08-15 11:43:54 INFO  Main                  Receiver Result
+2018-08-15 11:43:54 INFO  Main                  Receiver Result
+2018-08-15 11:43:54 INFO  Main                  Receiver Result
+2018-08-15 11:43:54 INFO  Main                  Receiver Result
+2018-08-15 11:43:54 INFO  Main                  Receiver Result
+2018-08-15 11:43:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-15 11:44:15 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:44:15 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 11:44:16 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 11:44:16 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/60b7ba45-b713-4b24-8d69-3c88fb87d7a3
+2018-08-15 11:44:19 INFO  Main                  Receiver Result
+2018-08-15 11:44:20 INFO  Main                  Receiver Result
+2018-08-15 11:44:21 INFO  Main                  Receiver Result
+2018-08-15 11:44:23 INFO  Main                  Receiver Result
+2018-08-15 13:39:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:39:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:39:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:39:51 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/604a8c1a-290b-44a9-9c5f-29b1c29fc225
+2018-08-15 13:39:54 INFO  Main                  Receiver Result
+2018-08-15 13:39:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-15 13:39:54 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/604a8c1a-290b-44a9-9c5f-29b1c29fc225
+2018-08-15 13:40:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:40:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:40:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:40:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/5a40f911-e855-4c12-978c-275a72a91efd
+2018-08-15 13:40:16 INFO  Main                  Receiver Result
+2018-08-15 13:43:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:43:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:43:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:43:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/8c7a8b64-1734-4c38-8ecd-2858245bc501
+2018-08-15 13:43:16 INFO  Main                  Receiver Result
+2018-08-15 13:43:17 INFO  Main                  Receiver Result
+2018-08-15 13:43:18 INFO  Main                  Receiver Result
+2018-08-15 13:43:20 INFO  Main                  Receiver Result
+2018-08-15 13:43:20 INFO  Main                  Receiver Result
+2018-08-15 13:43:21 INFO  Main                  Receiver Result
+2018-08-15 13:43:22 INFO  Main                  Receiver Result
+2018-08-15 13:43:23 INFO  Main                  Receiver Result
+2018-08-15 13:43:24 INFO  Main                  Receiver Result
+2018-08-15 13:43:25 INFO  Main                  Receiver Result
+2018-08-15 13:43:26 INFO  Main                  Receiver Result
+2018-08-15 13:43:27 INFO  Main                  Receiver Result
+2018-08-15 13:43:28 INFO  Main                  Receiver Result
+2018-08-15 13:44:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:44:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:44:15 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:44:15 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/20fcb282-7423-4c49-bcfb-566ccafc198e
+2018-08-15 13:44:17 INFO  Main                  Receiver Result
+2018-08-15 13:44:18 INFO  Main                  Receiver Result
+2018-08-15 13:44:19 INFO  Main                  Receiver Result
+2018-08-15 13:44:20 INFO  Main                  Receiver Result
+2018-08-15 13:44:21 INFO  Main                  Receiver Result
+2018-08-15 13:44:22 INFO  Main                  Receiver Result
+2018-08-15 13:44:23 INFO  Main                  Receiver Result
+2018-08-15 13:44:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:44:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:44:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:44:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/a55c5da7-831e-4f81-a089-ccc41950a8b9
+2018-08-15 13:44:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-15 13:44:49 INFO  Main                  Receiver Result
+2018-08-15 13:44:50 INFO  Main                  Receiver Result
+2018-08-15 13:44:51 INFO  Main                  Receiver Result
+2018-08-15 13:44:52 INFO  Main                  Receiver Result
+2018-08-15 13:44:53 INFO  Main                  Receiver Result
+2018-08-15 13:44:54 INFO  Main                  Receiver Result
+2018-08-15 13:45:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:45:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:45:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:45:13 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:45:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:45:14 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/99768d9f-028e-4860-8bb1-81301569f9e2
+2018-08-15 13:45:17 INFO  Main                  Receiver Result
+2018-08-15 13:45:17 INFO  Main                  Receiver Result
+2018-08-15 13:45:18 INFO  Main                  Receiver Result
+2018-08-15 13:45:19 INFO  Main                  Receiver Result
+2018-08-15 13:45:20 INFO  Main                  Receiver Result
+2018-08-15 13:46:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:46:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:46:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:46:47 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/9d26ac47-1d64-491a-947d-d811f6fc0232
+2018-08-15 13:46:50 INFO  Main                  Receiver Result
+2018-08-15 13:46:50 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-15 13:46:50 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/9d26ac47-1d64-491a-947d-d811f6fc0232
+2018-08-15 13:47:10 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:47:10 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:47:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:47:11 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/e9aaf305-1528-401f-b68a-b75342588023
+2018-08-15 13:47:13 INFO  Main                  Receiver Result
+2018-08-15 13:48:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:48:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:48:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:48:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/761d7f66-a506-4e15-9313-bd1348c5eddf
+2018-08-15 13:48:26 INFO  Main                  Receiver Result
+2018-08-15 13:48:27 INFO  Main                  Receiver Result
+2018-08-15 13:48:28 INFO  Main                  Receiver Result
+2018-08-15 13:48:29 INFO  Main                  Receiver Result
+2018-08-15 13:48:30 INFO  Main                  Receiver Result
+2018-08-15 13:48:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:48:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:48:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:48:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/9b604265-0deb-46d8-86c9-8cafb03f29f1
+2018-08-15 13:48:57 INFO  Main                  Receiver Result
+2018-08-15 13:48:59 INFO  Main                  Receiver Result
+2018-08-15 13:49:00 INFO  Main                  Receiver Result
+2018-08-15 13:49:03 INFO  Main                  Receiver Result
+2018-08-15 13:49:05 INFO  Main                  Receiver Result
+2018-08-15 13:49:07 INFO  Main                  Receiver Result
+2018-08-15 13:49:08 INFO  Main                  Receiver Result
+2018-08-15 13:49:09 INFO  Main                  Receiver Result
+2018-08-15 13:49:10 INFO  Main                  Receiver Result
+2018-08-15 13:49:11 INFO  Main                  Receiver Result
+2018-08-15 13:49:12 INFO  Main                  Receiver Result
+2018-08-15 13:49:13 INFO  Main                  Receiver Result
+2018-08-15 13:49:14 INFO  Main                  Receiver Result
+2018-08-15 13:49:16 INFO  Main                  Receiver Result
+2018-08-15 13:49:17 INFO  Main                  Receiver Result
+2018-08-15 13:49:18 INFO  Main                  Receiver Result
+2018-08-15 13:49:20 INFO  Main                  Receiver Result
+2018-08-15 13:49:23 INFO  Main                  Receiver Result
+2018-08-15 13:49:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:49:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:49:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:49:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/2597d71b-be4b-41a7-925a-c94d4a64e3d1
+2018-08-15 13:50:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:50:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:50:07 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-15 13:50:07 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/2597d71b-be4b-41a7-925a-c94d4a64e3d1
+2018-08-15 13:50:07 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao publicar a consulta
+2018-08-15 13:50:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:50:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:50:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:50:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/f78d4728-c95e-46b7-ba9f-47c7511d2a15
+2018-08-15 13:50:35 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-15 13:51:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:51:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-15 13:51:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-15 13:51:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/8f942509-10d0-4dd1-96be-7f8b3b866f7a
+2018-08-15 13:51:22 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-15 13:51:27 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-15 13:51:27 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/8f942509-10d0-4dd1-96be-7f8b3b866f7a
+2018-08-16 10:26:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 10:26:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 10:26:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 10:26:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/aadc1866-8748-4d21-bf87-464c2b0eaa4e
+2018-08-16 10:26:38 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-16 10:26:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 10:26:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 10:26:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 10:26:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/18e24284-35ed-48e6-abcd-03678e41bb98
+2018-08-16 10:55:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 10:55:53 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 10:55:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 10:55:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/96762a12-d4da-4c11-88bb-9cbf48149140
+2018-08-16 10:55:54 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  deliveryComplete
+2018-08-16 10:56:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 10:56:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 10:56:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 10:56:32 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/76410cfc-a497-4fa5-a933-04813efe7a07
+2018-08-16 11:00:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:00:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:00:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:00:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/4a629414-3bf0-4281-b6ef-c59643cc3f08
+2018-08-16 11:03:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:03:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:03:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:03:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/a7ccaca3-2e87-4cd4-9069-f214bdb546c0
+2018-08-16 11:07:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:07:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:07:21 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:07:21 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/2657dcab-0efb-4eb3-b7d4-c7427d1c9466
+2018-08-16 11:08:06 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-16 11:08:06 ERROR br.ufma.lsdi.ssd.Implements.ResultReceiver  Erro ao se subscrever em: responseQuery/2657dcab-0efb-4eb3-b7d4-c7427d1c9466
+2018-08-16 11:08:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:08:19 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:08:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:08:20 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/5e732215-8916-4f63-852b-55cc25910ab8
+2018-08-16 11:09:42 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-16 11:09:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:09:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:09:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:09:49 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/d1a6d400-c0bc-4c92-ace1-6c8642a4d411
+2018-08-16 11:10:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:10:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:10:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:10:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/b8e0f98d-20eb-448d-ac63-193b52cf8be1
+2018-08-16 11:12:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:12:08 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:12:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:12:09 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/107711fb-5f8f-4a81-9005-27943f97ceeb
+2018-08-16 11:12:30 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:12:30 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:12:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:12:31 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/cb77d7b2-0525-46c4-87c0-cdb996e48557
+2018-08-16 11:13:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:13:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:13:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:13:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/068a3091-02a6-49cb-abec-c4f1efc8cdd2
+2018-08-16 11:17:44 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:17:44 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 11:17:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 11:17:45 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/527e0523-e452-4134-9ba6-f95db61320ee
+2018-08-16 11:34:38 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-16 12:07:02 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 12:07:02 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 12:07:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 12:07:03 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/2e0ac927-887d-4a8b-9d38-9d3fb916294e
+2018-08-16 12:17:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 12:17:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 12:17:40 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 12:17:40 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/3965b8bb-c12b-406c-ad1b-167bb882bbcf
+2018-08-16 12:19:39 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  ConnectionLost
+2018-08-16 13:50:17 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 13:50:17 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 13:50:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 13:50:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/1c18e0bc-188f-4bfd-b4ac-282cfdf12c47
+2018-08-16 13:55:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 13:55:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 13:55:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 13:55:18 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/666c656f-a215-418e-8728-182a2f7139b5
+2018-08-16 13:55:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 13:55:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 13:55:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 13:55:46 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/ee6f0aab-1def-4552-9bb0-df02d6e7d0f0
+2018-08-16 15:25:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 15:25:36 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Recebeu a consulta
+2018-08-16 15:25:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Publicou a consulta
+2018-08-16 15:25:37 INFO  br.ufma.lsdi.ssd.Implements.ResultReceiver  Subscreveu em: responseQuery/d49b5047-4e0f-468d-9107-704f1a9832e9
+2018-08-16 15:27:39 INFO  br.ufma.lsdi.ssd.Communication.Communication  Publicou a consulta
+2018-08-16 15:27:39 INFO  br.ufma.lsdi.ssd.Communication.Communication  Subscreveu em: responseQuery/771d804d-905f-46fb-9639-24707d0b1290
+2018-08-16 15:27:58 INFO  br.ufma.lsdi.ssd.Communication.Communication  ConnectionLost
+2018-08-16 15:27:58 ERROR br.ufma.lsdi.ssd.Communication.Communication  Erro ao se subscrever em: responseQuery/771d804d-905f-46fb-9639-24707d0b1290
+2018-08-16 15:27:58 ERROR br.ufma.lsdi.ssd.Communication.Communication  Erro ao publicar a consulta
+2018-08-16 15:28:05 INFO  br.ufma.lsdi.ssd.Communication.Communication  Publicou a consulta 1
+2018-08-16 15:28:05 INFO  br.ufma.lsdi.ssd.Communication.Communication  Subscreveu em: responseQuery/20be0d6e-3d81-44e3-ad84-9a52c9ef363e

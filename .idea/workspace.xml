@@ -1,26 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SemanticServiceDiscovery:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="6cf11383-31c1-47a6-812e-967bccaf2253" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/csparql_common_0_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/ResponseQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/SemanticServiceDiscovery_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_slf4j_slf4j_api_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_slf4j_slf4j_log4j12_1_7_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/Configurator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SemanticServiceDiscovery.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SemanticServiceDiscovery.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/Communication/Communication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/Communication/Communication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/Communication/Connect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/Implements/ResultReceiver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/Interfaces/Listener.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/Interfaces/Observable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/Model/OntologyPrefix.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/Model/Query$Builder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/Model/Query.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/ConfigLog/csparql_log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SemanticServiceDiscovery/br/ufma/lsdi/ssd/ConfigLog/csparql_log4j.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Connect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Connect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/ConfigLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/ConfigLog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/csparql_log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/csparql_log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Implements/ResultReceiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Implements/ResultReceiver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Listener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Listener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Observable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Observable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/ResponseQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/ResponseQuery.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,131 +39,52 @@
     <session id="185535922">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.50" value="1" />
           <entry key="project.open.time.53" value="2" />
           <entry key="project.open.time.55" value="1" />
-          <entry key="project.opened" value="9" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="759" />
+          <entry key="MF" value="1" />
+          <entry key="dummy" value="1" />
+          <entry key="java" value="2153" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="759" />
+          <entry key="JAVA" value="2153" />
+          <entry key="Manifest" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="14" />
+          <entry key="MF" value="2" />
+          <entry key="class" value="31" />
+          <entry key="java" value="38" />
+          <entry key="properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="14" />
+          <entry key="CLASS" value="31" />
+          <entry key="JAVA" value="38" />
+          <entry key="Manifest" value="2" />
+          <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="409">
-              <caret line="55" selection-start-line="55" selection-end-line="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formater.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/ConfigLog.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Implements/ResultReceiver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="720">
-              <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Listener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Observable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="65" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1880">
-              <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Connect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/ResponseQuery.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -165,6 +92,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>messageArrived</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -183,16 +115,20 @@
         <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/Query.java" />
         <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/csparql_log4j.properties" />
         <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Implements/ObservableImpl.java" />
-        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Connect.java" />
         <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/OntologyPrefix.java" />
+        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formater.java" />
+        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Connect.java" />
+        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/Configurator.java" />
         <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/ConfigLog.java" />
         <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/ResponseQuery.java" />
         <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Observable.java" />
-        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java" />
-        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Implements/ResultReceiver.java" />
         <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Listener.java" />
-        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formater.java" />
+        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formatter.java" />
+        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Implements/ResultReceiver.java" />
+        <option value="$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -203,17 +139,32 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
+    <option name="x" value="1358" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="784" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SemanticServiceDiscovery" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SemanticServiceDiscovery" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="SemanticServiceDiscovery" type="58d84e3e:PackageViewProjectNode" />
+              <item name="SemanticServiceDiscovery" type="616d4139:PackageViewModuleNode" />
+              <item name="META-INF" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,21 +188,34 @@
               <item name="SemanticServiceDiscovery" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ssd" type="462c0819:PsiDirectoryNode" />
-              <item name="Formatter" type="462c0819:PsiDirectoryNode" />
+              <item name="Implements" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="SemanticServiceDiscovery" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SemanticServiceDiscovery" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
             <path>
-              <item name="SemanticServiceDiscovery" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SemanticServiceDiscovery" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ssd" type="462c0819:PsiDirectoryNode" />
-              <item name="Interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="SemanticServiceDiscovery" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SemanticServiceDiscovery" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name=".idea" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="SemanticServiceDiscovery" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="SemanticServiceDiscovery" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -260,11 +224,11 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534184187511" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Libs/csparql-common-0.9.5.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1534446464272" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/META-INF" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15527344" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
@@ -394,26 +358,27 @@
       <workItem from="1534108094671" duration="103000" />
       <workItem from="1534112683436" duration="723000" />
       <workItem from="1534161856872" duration="9830000" />
-      <workItem from="1534199009891" duration="829000" />
+      <workItem from="1534199009891" duration="22230000" />
+      <workItem from="1534336780142" duration="10079000" />
+      <workItem from="1534423653866" duration="13795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80114000" />
+    <option name="totallyTimeSpent" value="125733000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
+    <frame x="1358" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Structure" order="3" side_tool="true" weight="0.25" />
-      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.11270802" />
+      <window_info active="true" content_ui="combo" id="Project" order="4" visible="true" weight="0.20522387" />
       <window_info id="Image Layers" order="5" />
       <window_info id="Capture Tool" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32985386" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32917964" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.4475597" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39875388" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -445,50 +410,26 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java</url>
-          <line>42</line>
-          <properties class="br.ufma.lsdi.ssd.Communication.Communication" method="publish">
+          <url>file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formatter.java</url>
+          <line>24</line>
+          <properties class="br.ufma.lsdi.ssd.Formatter.Formatter" method="toString">
             <option name="EMULATED" value="true" />
           </properties>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java</url>
-          <line>44</line>
-          <properties />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="8" />
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="resultRdfT" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/SubscribeTeste.java" />
     <entry file="file://$PROJECT_DIR$/src/Public.java" />
     <entry file="jar://C:/Program Files/Java/jdk-10.0.1/lib/src.zip!/java.base/java/io/FileOutputStream.java" />
-    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/csparql_log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Implements/ObservableImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/OntologyPrefix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="24" column="27" selection-start-line="24" selection-start-column="27" selection-end-line="24" selection-end-column="27" />
-          <folding>
-            <element signature="e#1186#1187#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/Query.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="380">
@@ -496,76 +437,195 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Connect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="29" column="72" selection-start-line="29" selection-start-column="72" selection-end-line="29" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Exception/BrokerConnectException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/csparql_log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/Configurator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Libs/log4j-1.2.17.jar!/org/apache/log4j/BasicConfigurator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="23" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/ConfigLog/ConfigLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="221">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Libs/csparql-common-0.9.5.jar!/eu/larkc/csparql/common/RDFTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12">
+          <caret line="2420" column="20" selection-start-line="2420" selection-start-column="20" selection-end-line="2420" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Implements/ResultReceiver.java">
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/ResponseQuery.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="41" column="23" selection-start-line="41" selection-start-column="23" selection-end-line="41" selection-end-column="23" />
+        <state relative-caret-position="280">
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="58" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Listener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="57" selection-start-line="7" selection-start-column="57" selection-end-line="7" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Observable.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
-          <caret line="11" column="65" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1880">
-          <caret line="106" column="28" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="28" />
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Connect.java">
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Interfaces/Observable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        <state relative-caret-position="280">
+          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/ResponseQuery.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formater.java">
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Model/OntologyPrefix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="25" lean-forward="true" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="33" />
+        <state relative-caret-position="160">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+          <folding>
+            <element signature="e#1161#1162#0" expanded="true" />
+            <element signature="e#1186#1187#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Libs/csparql-common-0.9.5.jar!/eu/larkc/csparql/common/RDFTuple.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="31" column="82" selection-start-line="31" selection-start-column="80" selection-end-line="31" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Libs/org.eclipse.paho.client.mqttv3-1.1.0.jar!/org/eclipse/paho/client/mqttv3/internal/CommsCallback.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="152" selection-start-line="152" selection-end-line="152" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Implements/ResultReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="49" column="17" selection-start-line="49" selection-start-column="17" selection-end-line="49" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Communication/Communication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="69" column="87" selection-start-line="69" selection-start-column="87" selection-end-line="69" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#3386#3387#0" expanded="true" />
+            <element signature="e#3465#3466#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="380">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/SemanticServiceDiscovery/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/SemanticServiceDiscovery/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="770" column="33" lean-forward="true" selection-start-line="770" selection-start-column="33" selection-end-line="770" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/ufma/lsdi/ssd/Formatter/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
@@ -573,6 +633,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>unnamed</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -632,7 +693,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>csparql-common-0.9.5</last-edited>
+          <last-edited>org.slf4j:slf4j-log4j12:1.7.5</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -28,7 +28,6 @@ public class Connect {
         if (client == null) {
             try {
                 client = new MqttClient(brokerUrl, clientID, dataStore);
-
                 client.connect();
             } catch (MqttException e) {
                 e.printStackTrace();

@@ -1,24 +1,28 @@
 package br.ufma.lsdi.ssd.Model;
 
+import eu.larkc.csparql.common.RDFTuple;
+
+import java.util.ArrayList;
 import java.util.Observable;
 
 public class ResponseQuery {
-    Observable o;
-    Object arg;
+    private Observable observable;
+    ArrayList<RDFTuple> rdfTuples;
 
-    public Observable getO() {
-        return o;
+    public Observable getObservable() {
+        return observable;
     }
 
-    public void setO(Observable o) {
-        this.o = o;
+    public void setObservable(Observable observable) {
+        this.observable = observable;
     }
 
-    public Object getArg() {
-        return arg;
+    public ArrayList<RDFTuple> getRdfTuples() {
+        return rdfTuples;
     }
 
-    public void setArg(Object arg) {
-        this.arg = arg;
+    public void setRdfTuples(ArrayList<RDFTuple> rdfTuples) {
+        this.rdfTuples = rdfTuples;
     }
+
 }

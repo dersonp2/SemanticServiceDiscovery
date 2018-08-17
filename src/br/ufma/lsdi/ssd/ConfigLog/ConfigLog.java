@@ -14,7 +14,8 @@ public class ConfigLog {
         Logger logger = LoggerFactory.getLogger(c);
         //PropertyConfigurator.configure("log4j.properties");
         BasicConfigurator.configure();
-       /* String caminho = "src/ConfigLog/csparql_log4j.properties";
+        //Configurator.configure();
+        /*String caminho = "src/ConfigLog/csparql_log4j.properties";
         try {
             PropertyConfigurator.configure(caminho);
         } catch (Exception e) {

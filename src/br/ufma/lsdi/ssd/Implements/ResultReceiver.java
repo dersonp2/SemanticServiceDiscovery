@@ -5,7 +5,10 @@ import br.ufma.lsdi.ssd.ConfigLog.ConfigLog;
 import br.ufma.lsdi.ssd.Interfaces.Listener;
 import br.ufma.lsdi.ssd.Interfaces.Observable;
 import br.ufma.lsdi.ssd.Model.Query;
+import eu.larkc.csparql.common.RDFTuple;
 import org.slf4j.Logger;
+
+import java.util.ArrayList;
 
 
 /**
@@ -24,7 +27,7 @@ public class ResultReceiver implements Observable {
     @Override
     public void addListener(Query query, Listener listener) {
         logger = new ConfigLog().log(ResultReceiver.class);
-        logger.info("Recebeu a consulta");
+        //logger.info("Recebeu a consulta");
         this.listener = listener;
         communication.query(query, this);
 
@@ -33,13 +36,13 @@ public class ResultReceiver implements Observable {
     @Override
     public void removeListener(Listener listener) {
         this.listener = null;
-        logger.info("Recebeu o Listener");
+        //logger.info("Recebeu o Listener");
     }
 
     @Override
-    public void notifyListener(java.util.Observable o, Object arg) {
+    public void notifyListener(java.util.Observable o, ArrayList<RDFTuple> rdfTuples) {
         if (listener != null)
-            listener.update(o,arg); //mudar
+            listener.update(o,rdfTuples);
     }
 
     public void disconnect(Listener listener) {
