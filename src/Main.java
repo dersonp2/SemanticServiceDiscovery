@@ -4,6 +4,7 @@ import br.ufma.lsdi.ssd.Model.OntologyPrefix;
 import br.ufma.lsdi.ssd.Model.Query;
 import br.ufma.lsdi.ssd.Interfaces.Listener;
 import br.ufma.lsdi.ssd.Implements.ResultReceiver;
+import br.ufma.lsdi.ssd.StaticModel.StaticModel;
 import eu.larkc.csparql.common.RDFTable;
 import eu.larkc.csparql.common.RDFTuple;
 import org.slf4j.Logger;
@@ -54,8 +55,9 @@ public class Main {
                 + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
                 + "WHERE { ?s iot:hasQuatityKind ?o }";
 
+        new StaticModel().putStaticNamedModel("http://streamreasoning.org/roomConnection","examples_files/OntoRDF.owl");
 
-        Query q = new Query.Builder().query(query2)
+       /* Query q = new Query.Builder().query(query2)
                 .continuos(true)
                 .publisherID("Anderson@lsdi.ufma.br")
                 .build();
@@ -70,10 +72,9 @@ public class Main {
 
               /*for(int i =0; i<result.size();i++){
                   System.out.println("O valor da temperatura é de: "+result.get(i));
-              }*/
+              }
             }
 
-        });
-
+        });*/
     }
 }

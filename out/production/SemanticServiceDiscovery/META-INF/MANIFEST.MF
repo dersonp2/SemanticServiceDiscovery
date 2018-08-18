@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Class-Path: log4j-1.2.17.jar log4j.jar slf4j-api-1.7.5.jar csparql-com
+ mon-0.9.5.jar log4j-1.2.17.jar slf4j-api-1.7.5.jar org.eclipse.paho.c
+ lient.mqttv3-1.1.0.jar slf4j-api-1.7.5.jar slf4j-log4j12-1.7.5.jar sl
+ f4j-api-1.7.5.jar log4j-1.2.17.jar gson-2.2.4.jar
+
