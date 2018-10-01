@@ -28,6 +28,7 @@ public class Connect {
         if (client == null) {
             try {
                 client = new MqttClient(brokerUrl, clientID, dataStore);
+                client.setTimeToWait(0);
                 client.connect();
             } catch (MqttException e) {
                 e.printStackTrace();

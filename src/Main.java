@@ -25,39 +25,19 @@ public class Main {
     public static void consulta() {
 
         OntologyPrefix p = new OntologyPrefix();
-        String query = "REGISTER QUERY MhubSemantic AS "
-                + "PREFIX ex:<http://mycsparql.lsdi/> "
-                + "SELECT ?s ?p ?o "
-                + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
-                + "WHERE { ?s ?p ?o }";
-
         String query2 = "REGISTER QUERY MhubSemantic AS "
-                + "PREFIX iotlite:<" + p.getIotlite() + "> "
-                + "PREFIX sosa:<" + p.getSosa() + "> "
-                + "SELECT ?result "
-                + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 10s STEP 5s] "
+                + "PREFIX pk:<" + p.getPk() + "> "
+                + "SELECT ?s "
+                + "FROM STREAM <"+ p.getPk() +"> [RANGE 5s STEP 5s] "
+                + "FROM <http://mycsparql.lsdi/smartParking> "
                 + "WHERE { "
-                + "?id iotlite:hasQuatityKind iotlite:Temperature . "
-                + "?id sosa:hasResult ?result"
-                + " }";
+                + "?s pk:hasState pk:Free "
+                + "} ";
 
-        String query3 = "REGISTER QUERY MhubSemantic AS "
-                + "PREFIX iotlite:<" + p.getIotlite() + "> "
-                + "SELECT ?id "
-                + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
-                + "WHERE { ?id iotlite:hasQuatityKind iotlite:Temperature }";
+        new StaticModel().putStaticNamedModel("http://mycsparql.lsdi/smartParking",
+                "examples_files/ParkingRDF.owl");
 
-        String query4 = "REGISTER QUERY WhoLikesWhat AS "
-                + "PREFIX ex: <" + p.getSosa() + "> "
-                + "PREFIX iot: <" + p.getIotlite() + "> "
-                + "PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> "
-                + "SELECT ?s ?o "
-                + "FROM STREAM <http://mycsparql.lsdi/stream> [RANGE 5s STEP 1s] "
-                + "WHERE { ?s iot:hasQuatityKind ?o }";
-
-        new StaticModel().putStaticNamedModel("http://streamreasoning.org/roomConnection","examples_files/OntoRDF.owl");
-
-       /* Query q = new Query.Builder().query(query2)
+        Query q = new Query.Builder().query(query2)
                 .continuos(true)
                 .publisherID("Anderson@lsdi.ufma.br")
                 .build();
@@ -68,13 +48,48 @@ public class Main {
             public void update(java.util.Observable o, ArrayList<RDFTuple> rdfTuples) {
 
               ArrayList<String> result = new Formatter().toString(rdfTuples);
-              System.out.println("O valor da temperatura é de: "+result.get(0));
-
-              /*for(int i =0; i<result.size();i++){
-                  System.out.println("O valor da temperatura é de: "+result.get(i));
-              }
+                System.out.println("Quantidade de vagas: "+result.size());
+              for(int i =0; i<result.size();i++){
+                    System.out.println("Vagas livres: "+result.get(i));
+                }
+                System.out.println("\n");
             }
 
-        });*/
+        });
     }
+
+    public static void Querys(){
+        OntologyPrefix p = new OntologyPrefix();
+
+
+        String queryp1 = "REGISTER QUERY MhubSemantic AS "
+                + "PREFIX pk:<" + p.getPk() + "> "
+                + "SELECT ?s ?p ?obj "
+                + "FROM STREAM <"+ p.getPk() +"> [RANGE 10s STEP 5s] "
+                + "WHERE { "
+                + "?s pk:hasState pk:Busy "
+                + "} ";
+
+        String queryp2 = "REGISTER QUERY MhubSemantic AS "
+                + "PREFIX pk:<" + p.getPk() + "> "
+                + "SELECT ?s ?vehicle "
+                + "FROM STREAM <"+ p.getPk() +"> [RANGE 10s STEP 5s] "
+                + "FROM <http://streamreasoning.org/roomConnection> "
+                + "WHERE { "
+                + "?s pk:hasState pk:Free ."
+                + "?s pk:hasVehicleSpace pk:CarSpace "
+                + "} ";
+
+        String queryp3 = "REGISTER QUERY MhubSemantic AS "
+                + "PREFIX pk:<" + p.getPk() + "> "
+                + "SELECT ?s "
+                + "FROM STREAM <"+ p.getPk() +"> [RANGE 5s STEP 1s] "
+                + "FROM <http://streamreasoning.org/roomConnection> "
+                + "WHERE { "
+                + "?s pk:hasState pk:Free ."
+                + "?s pk:hasVehicleSpace pk:MotorcycleSpace "
+                + "} ";
+    }
+
 }
+

@@ -31,7 +31,6 @@ public class Communication {
 
     public void query(Query query, ResultReceiver resultReceiver) {
         logger = new ConfigLog().log(Communication.class);
-        //logger.info("Recebeu a consulta");
         this.observable = resultReceiver;
         this.query = new Query.Builder().build();
         this.query = query;

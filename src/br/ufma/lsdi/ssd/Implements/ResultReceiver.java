@@ -8,6 +8,7 @@ import br.ufma.lsdi.ssd.Model.Query;
 import eu.larkc.csparql.common.RDFTuple;
 import org.slf4j.Logger;
 
+import javax.naming.Context;
 import java.util.ArrayList;
 
 
@@ -26,11 +27,9 @@ public class ResultReceiver implements Observable {
 
     @Override
     public void addListener(Query query, Listener listener) {
-        logger = new ConfigLog().log(ResultReceiver.class);
-        //logger.info("Recebeu a consulta");
-        this.listener = listener;
         communication.query(query, this);
-
+        this.listener = listener;
+        System.out.println("ResultReceiver - Mandou a consulta para o Communication");
     }
 
     @Override

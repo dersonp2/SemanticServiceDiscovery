@@ -946,3 +946,10 @@
 2018-08-16 15:27:58 ERROR br.ufma.lsdi.ssd.Communication.Communication  Erro ao publicar a consulta
 2018-08-16 15:28:05 INFO  br.ufma.lsdi.ssd.Communication.Communication  Publicou a consulta 1
 2018-08-16 15:28:05 INFO  br.ufma.lsdi.ssd.Communication.Communication  Subscreveu em: responseQuery/20be0d6e-3d81-44e3-ad84-9a52c9ef363e
+2018-10-01 14:42:37 INFO  br.ufma.lsdi.ssd.Communication.Communication  ConnectionLost
+2018-10-01 14:42:37 ERROR br.ufma.lsdi.ssd.Communication.Communication  Error Subscribe: responseQuery/9bbe1ee4-b9a6-45b8-80b5-7c160224540f
+2018-10-01 14:42:38 ERROR br.ufma.lsdi.ssd.Communication.Communication  Erro ao publicar a consulta
+2018-10-01 14:52:21 INFO  br.ufma.lsdi.ssd.Communication.Communication  ConnectionLost
+2018-10-01 14:52:21 ERROR br.ufma.lsdi.ssd.Communication.Communication  Error Subscribe: responseQuery/65c2cdd0-2dd9-400c-9ba9-30ce428ef273
+2018-10-01 15:39:37 INFO  br.ufma.lsdi.ssd.Communication.Communication  ConnectionLost
+2018-10-01 15:39:37 ERROR br.ufma.lsdi.ssd.Communication.Communication  Error Subscribe: responseQuery/d1f2862f-87ae-4930-9397-f85222573932
