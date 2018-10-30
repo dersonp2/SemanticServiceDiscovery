@@ -55,6 +55,7 @@ public class Communication {
             client.publish(TOPIC_QUERY, message);
             System.out.println("Communication.Communication  - published the query\n");
             responseQuery();
+            System.exit(0);
         } catch (MqttException e) {
             e.printStackTrace();
             logger.error("Erro ao publicar a consulta");

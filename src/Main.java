@@ -28,17 +28,17 @@ public class Main {
         String query2 = "REGISTER QUERY MhubSemantic AS "
                 + "PREFIX pk:<" + p.getPk() + "> "
                 + "SELECT ?s "
-                + "FROM STREAM <"+ p.getPk() +"> [RANGE 5s STEP 5s] "
+                + "FROM STREAM <"+ p.getPk() +"> [RANGE 1s STEP 1s] "
                 + "FROM <http://mycsparql.lsdi/smartParking> "
                 + "WHERE { "
                 + "?s pk:hasState pk:Free "
                 + "} ";
 
-        new StaticModel().putStaticNamedModel("http://mycsparql.lsdi/smartParking",
-                "examples_files/ParkingRDF.owl");
+        //new StaticModel().putStaticNamedModel("http://mycsparql.lsdi/smartParking",
+                //"examples_files/ParkingRDF.owl");
 
         Query q = new Query.Builder().query(query2)
-                .continuos(true)
+                 .continuos(true)
                 .publisherID("Anderson@lsdi.ufma.br")
                 .build();
 

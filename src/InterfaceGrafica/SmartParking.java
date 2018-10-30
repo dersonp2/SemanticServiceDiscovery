@@ -67,7 +67,7 @@ public class SmartParking extends JDialog {
                 new StaticModel().putStaticNamedModel("http://mycsparql.lsdi/smartParking",
                         "examples_files/ParkingRDF.owl");
 
-                String query = new ExampleQueries().getStateCarFreeElderlySpaceSnackBar();
+                String query = new ExampleQueries().getStateFree();
 
                 Query q = new Query.Builder().query(query)
                         .continuos(true)
@@ -75,7 +75,7 @@ public class SmartParking extends JDialog {
                         .build();
 
                 ResultReceiver consulta = new ResultReceiver();
-                consulta.addListener(q, new Listener() {
+                    consulta.addListener(q, new Listener() {
                     @Override
                     public void update(java.util.Observable o, ArrayList<RDFTuple> rdfTuples) {
 
